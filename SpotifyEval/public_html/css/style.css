@@ -1,0 +1,81 @@
+/* 
+    Created on : 18 févr. 2019, 09:45:29
+    Author     : eric
+*/
+body {
+
+}
+
+header {
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navBar {
+    display: flex;
+    background-color: black;
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0.52;
+}
+
+.logo {
+    height: 40px;
+    width: 140px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+main {
+    display: block;
+    background-image: linear-gradient(#ff3366, #ff3366, yellow);
+    height: 100vh;
+    text-align: center;
+    vertical-align: central;
+}
+
+.text-center {
+}
+
+h1 {
+    color: white;
+}
+
+.image {
+    background: url("../img/hero-burst.svg") no-repeat;
+    margin: 0 auto;
+    height: 1523px; /*1523*/
+    width: 1610px;
+    background-position: top -400px center;
+}
+
+footer {
+    display: block;
+    background-color: #000;
+    height: 75vh;
+}
+
+
